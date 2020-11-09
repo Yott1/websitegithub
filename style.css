@@ -1,301 +1,292 @@
-/* cyrillic-ext */
-@font-face {
-    font-display: swap;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-  }
-  /* cyrillic */
-  @font-face {
-      font-display: swap;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
-    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-  }
-  /* vietnamese */
-  @font-face {
-    font-display: swap;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
-    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-  }
-  /* latin-ext */
-  @font-face {
-      font-display: swap;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-  /* latin */
-  @font-face {
-      font-display: swap;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  /* cyrillic-ext */
-  @font-face {
-      font-display: swap;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gTD_u50.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-  }
-  /* cyrillic */
-  @font-face {
-      font-display: swap;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3g3D_u50.woff2) format('woff2');
-    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-  }
-  /* vietnamese */
-  @font-face {
-      font-display: swap;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gbD_u50.woff2) format('woff2');
-    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-  }
-  /* latin-ext */
-  @font-face {
-      font-display: swap;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gfD_u50.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-  /* latin */
-  @font-face {
-      font-display: swap;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }  
+/* organisation css:{
 
-* {
-    box-sizing: border-box;
-}
+	POSITION + MARGIN, PADDING
 
-a {
-    text-decoration: none;
-}
+	BORDERS
 
-body {
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.87);
-    font-family: "Montserrat", sans-serif;
-    line-height: 1.8;
-    margin: 0;
+	BACKGROUND
+
+	TEXT
+
+	AUTRES
+
+} */
+
+
+/* ======================================  PAGE D'ACCEUIL ========================= */
+
+
+/* ====================================== header ================================= */
+
+html{
+	box-sizing: border-box;
 }
 
 
-.topbar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.75);
-    padding: 15px 80px;
-    z-index: 3;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+body{
+	background-color:#07707e;
+	width: 100%;
+	height: 100vh;
 }
 
-.topbar-link {
-    float: left;
-    padding: 30px;
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row nowrap;
 }
 
-.topbar nav a {
-    color: gray;
-    font-weight: 500;
-    padding: 0 53px;
-    line-height: 23px;
-    transition: color .3s;
+.header{
+	justify-content: space-between;
+	margin: 0 3.75%;
 }
 
-.topbar nav a:hover {
-    color: black;
-    
+.logo-image{
+	display: block;
+	width: 196.5px;
+	height:200px;
+	margin: 40px 0;
+
+	background-image: url("img/LOGO-blanc.png");
+
+	cursor: pointer;
 }
 
-.social {
-    float: right;
-    margin-top: 30px;
-}
 
-.social a {
-    padding: 0 12px;
-    opacity: .7;
-}
+.navbar{
+	height: 2em;
+	width: calc(95% - 196.5px);
 
-.social a:hover {
-    opacity: 1;
-}
+	border-radius: 5px;
+	
+	background-color:#fefff6;
 
-.banniere {
-    margin-top: 118.8px;
-    height: 400px;
-    background-image: url("img/imgfond.jpg");
-    background-position: center;
-    background-size: cover;
-}
-
-.main {
-    float: left;
-    width: calc(100% - 320px);
-    background-color: white;
-    position: relative;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, .05);
-    z-index: 2;
-}
-
-.sidebar {
-    float: right;
-    width: 320px;
-    height: 817.5px;
-    background-color: rgb(240, 240, 240);
-    z-index: 1;
-}
-
-.sidebar ul {
-    list-style-type: none;
-}
-
-.sidebar li {
-    padding: 6px;
-}
-
-.sidebar-title {
-    margin: 35px 40px;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.sidebar a {
-    color: gray;
-    font-weight: 500;
-    list-style-type: none;
-}
-
-.sidebar a:hover {
-    color: black;
-    font-size: 20px;
-}
-
-hr {
-    margin: 40px 30px
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 940px;
-    min-width: 300px;
-}
-
-.article {
-    padding-left: 333px;
-    position: relative;
-    margin: 50px 0;
-    min-height: 203px;
-}
-
-.article-title {
-    margin: 0;
-    font-size: 2.25rem;
-}
-
-.article-img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 200px;
-    margin-right: 25px;
-    transition: transform .3s;
-}
-
-.article-img:hover {
-    transform: scale(1.1);
-}
-
-.article-date {
-    font-style: italic;
-    color: grey;
-    font-size: 15px;
-}
-
-.article-img img {
-    width: 100%;
-    height: auto;
-}
-
-.footer {
-    clear: both;
-}
-
-@media only screen and (max-width: 1100px) {
-    .main {
-        width: 100%;
-    }
-    .sidebar {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 780px) {
-    .article {
-        padding-left: 0;
-    }
-    .article-img {
-        position: static;
-        margin-bottom: 2rem;
-        width: 100%;
-        display: block;
-        transition: transform .3s;
-    }
-}
-
-@media only screen and (max-width: 1040px) {
-    .topbar nav, .social {
-        float: none;
-        margin-top: 0;
-        text-align: center;
-    }
-    .topbar nav a {
-        padding: 0 20px 15px 20px;
-        white-space: nowrap;
-    }
-    .topbar {
-        position: unset;
-    }
-    .banniere {
-        margin: 0;
-    }
+	font-size: 50px;
+	text-transform: uppercase;
+	
+	box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
 
 }
+
+.navbar-h1 {
+	color: rgb(0, 0, 0);
+	text-transform: uppercase;
+}
+
+.nav-bar-h1 span{
+	font-size: 55px ;	
+}
+
+
+ /* ============================================   main  ======================== */ 
+
+
+.main{
+	justify-content: space-between;
+	height: 50%;
+	width: 100%;
+
+	background-image: url(img/595349517_2000px-600px.png);
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover ;
+}
+
+.petite-ecole,.ecole-secondaire,.ecole-internat{
+	width:100%;
+}
+
+.main .btn {
+	padding: 11px 25px;
+
+	border-radius: 50px;
+
+	background-color:rgba(212, 59, 87, 1);
+
+	font-size: 27.5px;
+	color: white;
+	font-weight: 400;
+	text-align: center;
+	font-family: 'Yantramanav', sans-serif;
+	
+    transition: all 0.3s ease 0s;
+	cursor:pointer;
+	box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.main a:hover {
+	transform: scale(1.2, 1.2);
+	box-shadow: none; 
+}
+
+
+ /* ======== TELEPHONE DESACTIVE ============== */ 
+
+.display-none {
+	display: none;
+}
+
+
+/* ====================================   footer  ================================ */ 
+
+/* Dégradé:
+
+	background: linear-gradient(90deg, rgb(62, 62, 122) 0%,
+	rgba(76, 148, 142, 0.45) 50%, 
+	rgba(2,0,36,1) 100%);
+	*/
+
+
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0;
+}
+
+footer h3 {
+	padding: 0 0 25px;
+
+	font-size: 27.5px;
+	color: #fefff6;
+}
+
+
+.footer div {
+	height: 200px;
+	text-align: center;
+}
+
+.footer p {
+	font-size: 16.5px;
+	font-weight: 300;
+	line-height: 1.4em;
+	color: #fefff6;
+	font-family: 'Roboto Slab', serif;
+}
+
+.petite-ecole-contact, .ecole-secondaire-contact, .ecole-internat-contact {
+	width: 100%;
+}
+
+.petite-ecole-contact {
+	padding-left: 0%;
+}
+
+.petite-ecole-contact :last-child {
+	padding: 20px 0;
+}
+
+.ecole-secondaire-contact :last-child {
+	padding: 20px 0;
+}
+
+.ecole-secondaire-contact :last-child a {
+	padding: 0;
+}
+
+.ecole-internat-contact {
+	padding-right: 0%;
+}
+
+.ecole-internat-contact :last-child {
+	padding: 20px 0;
+}
+
+
+
+
+/* mailto lien */
+
+.ecole-secondaire-contact a {
+	background: linear-gradient(to top, rgba(255, 78, 78, 1) 0%,  rgba(255, 78, 78, 1) 5%, transparent 5.01%);
+	background-size: 0% 100%;
+	background-repeat: no-repeat;
+
+	font-size: 19.5px;
+	color: var(--clic);
+
+	transition: background-size ease 0.3s;
+}
+
+.ecole-secondaire-contact a:hover{
+	background-size: 100% 100%;
+}
+
+ /* =============================  Téléphone  ============================== */ 
+
+
+
+
+@media screen and (max-width: 1150px) {
+
+/*	===============  header ================ */
+	
+	.header{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-flow: column nowrap;
+	}	
+	
+	.navbar {
+	width: 100%;
+	}
+
+    .navbar-h1 {
+		font-size:40px;
+	}
+
+	
+
+	/* ===================  main ================ */
+	
+	.main .display-none {
+		display: block;
+		color: #fefff6;
+	}
+
+	.main{
+		min-height: calc(100% - 380px);
+		flex-flow: column;
+		justify-content: space-between;
+
+		background: none;
+	}
+
+	.main > div {
+		display: flex;
+		flex-flow: column;
+		flex-basis: 33.33%;
+		text-align: center;
+		margin: 30px 0 0;
+	}
+
+	.main h3 {
+		padding: 25px 0;
+		font-size: 35px;
+	}
+
+
+	.main p {
+		font-size: 27.5px;
+		line-height: 1.3em;
+	}
+
+	.main .btn {
+	font-size: 40px;
+	}
+
+	.ecole-secondaire-contact a {
+		font-size: 27.5px;
+	}
+	
+   	/* ===== FOOTER ====== */
+
+	.footer {
+	display: none;
+	}
+}
+
