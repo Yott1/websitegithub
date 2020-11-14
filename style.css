@@ -145,6 +145,10 @@ body{
 	        box-shadow: none; 
 }
 
+.btn:active {
+	transition: all 0.05s ease 0s;
+	background-color: #af3249;
+}
 
  /* ======== TELEPHONE DESACTIVE ============== */ 
 
