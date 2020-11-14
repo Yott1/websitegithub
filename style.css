@@ -86,6 +86,7 @@ body{
 .navbar-h1 {
 	color: rgb(0, 0, 0);
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .nav-bar-h1 span{
@@ -97,9 +98,7 @@ body{
 
 
 .main{
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	justify-content: space-between;
 	height: 50%;
 	width: 100%;
 
@@ -258,24 +257,15 @@ footer h3 {
 
 
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1600px) {
 
 /*	===============  header ================ */
 	
 	.header{
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
-		-webkit-box-align: center;
-		    -ms-flex-align: center;
-		        align-items: center;
-		-webkit-box-pack: center;
-		    -ms-flex-pack: center;
-		        justify-content: center;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		    -ms-flex-flow: column nowrap;
-		        flex-flow: column nowrap;
+		align-items: center;
+		justify-content: center;
+		flex-flow: column nowrap;
 	}	
 	
 	.navbar {
@@ -283,6 +273,7 @@ footer h3 {
 	}
 
     .navbar-h1 {
+		text-align: center;
 		font-size:40px;
 	}
 
